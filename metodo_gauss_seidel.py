@@ -88,5 +88,5 @@ if __name__ == '__main__':
     chute_inicial = np.array([0, 0, 0, 0])
     erro = 0.001
 
-    resposta = metodo_gauss_seidel(chute_inicial, matriz_coeficientes, matriz_idependentes, erro, 6)
+    resposta = metodo_gauss_seidel(chute_inicial, matriz_coeficientes, matriz_idependentes, erro)
     print(f'X1: {resposta[0]:.4f}, X2: {resposta[1]:.4f}, X3: {resposta[2]:.4f}, X4: {resposta[3]:.4f}')
